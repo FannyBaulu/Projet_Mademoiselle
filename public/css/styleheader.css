@@ -1,0 +1,212 @@
+html,
+body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+}
+
+.full-height {
+    height: 20vw;
+    max-height: 20vh;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.top-center {
+    align-content: center;
+    top: 8px;
+}
+
+.top-left {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+}
+
+#mademoiselle {
+    max-width: 300px;
+}
+
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links>a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    z-index: 10;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: rgba(12, 11, 11, 1);
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #fff;
+    transition: all 0.5s ease;
+    font-size: 0.9rem;
+
+}
+
+.description:hover {
+    background-color: rgba(249, 174, 100, 0.8);
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.red {
+    color: red !important;
+}
+
+footer {
+    background-color: rgba(12, 11, 11, 1);
+    padding: 80px 0;
+}
+
+footer>.footer-widget>h3 {
+    margin-bottom: 30px;
+
+}
+
+footer>.contact-link {
+    display: inline-block;
+    width: 100%;
+    color: #333;
+}
+
+.footer-social>ul {
+    padding-left: 0;
+}
+
+.footer-social>ul>li {
+    list-style: none;
+    float: left;
+    padding: 0 10px;
+}
+
+.footer-social>ul>li:first-child {
+    padding-left: 0;
+}
+
+.footer-social>ul>li>a {
+    font-size: 20px;
+    color: #333;
+}
+
+.footer-social>ul>li>a:hover {
+    color: red;
+}
+
+
+
+.opening-time {
+    padding-left: 0;
+}
+
+.opening-time>li {
+    list-style: none;
+}
+
+.opening-time>li>span {
+    float: left;
+    padding-right: 10px;
+}
+
+.opening-time>li>span>.fa-times {
+    color: red;
+}
+
+.opening-time>li>strong {
+    color: red;
+}
+
+
+
+.media-body>a {
+    color: #333;
+}
+
+.media-body>a:hover {
+    color: red;
+}
+
+
+.media-body>span {
+    color: #969696;
+}
+
+
+
+
+.images-gellary>ul {
+    padding-left: 0;
+}
+
+.images-gellary>ul>li {
+    list-style: none;
+    float: left;
+    margin: 0 3% 2% 0;
+    width: 31%;
+    position: relative;
+}
+
+.images-gellary>ul>li:nth-child(3n) {
+    margin: 0 0 1%;
+}
+
+@media screen and (max-width:780px){
+    #mademoiselle{
+        max-width:150px;
+        justify-self: center;
+    }
+
+}
